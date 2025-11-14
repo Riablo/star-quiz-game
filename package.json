@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "明星我最懂 - 一个炫酷的网页问答游戏",
+  "packageManager": "pnpm@8.15.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

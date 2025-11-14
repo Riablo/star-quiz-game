@@ -21,6 +21,7 @@
 
 - **框架**: React 18 + TypeScript
 - **构建工具**: Vite
+- **包管理器**: pnpm
 - **样式**: Tailwind CSS
 - **动画**: Framer Motion
 - **状态管理**: React Hooks (useReducer + useContext)
@@ -69,16 +70,24 @@ star-quiz-game/
 
 ## 🚀 快速开始
 
+### 前置要求
+
+确保已安装 [pnpm](https://pnpm.io/zh/installation)：
+
+```bash
+npm install -g pnpm
+```
+
 ### 安装依赖
 
 ```bash
-npm install
+pnpm install
 ```
 
 ### 开发模式
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 访问 http://localhost:3000 查看应用
@@ -86,7 +95,7 @@ npm run dev
 ### 构建生产版本
 
 ```bash
-npm run build
+pnpm build
 ```
 
 构建产物将生成在 `dist` 目录
@@ -94,7 +103,7 @@ npm run build
 ### 预览生产版本
 
 ```bash
-npm run preview
+pnpm preview
 ```
 
 ## 🎮 游戏玩法
@@ -193,21 +202,21 @@ PVP模式中的AI对手特性：
 ### Vercel部署
 
 ```bash
-npm install -g vercel
+pnpm install -g vercel
 vercel
 ```
 
 ### Netlify部署
 
 ```bash
-npm run build
+pnpm build
 # 将 dist 目录拖放到 Netlify
 ```
 
 或使用Netlify CLI：
 
 ```bash
-npm install -g netlify-cli
+pnpm install -g netlify-cli
 netlify deploy --prod
 ```
 
