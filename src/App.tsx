@@ -3,7 +3,6 @@
  * 管理游戏的整体流程和状态
  */
 
-import { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { useGameState } from './hooks/useGameState';
 import { WelcomeScreen } from './components/WelcomeScreen';

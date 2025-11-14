@@ -15,8 +15,7 @@ import { ComboEffect } from './ComboEffect';
 import { simulateAIAnswer } from '../utils/aiOpponent';
 import {
   shouldTriggerEvent,
-  generateRandomEvent,
-  updateEventProgress
+  generateRandomEvent
 } from '../utils/eventCards';
 
 interface GameScreenProps {
@@ -58,8 +57,8 @@ export const GameScreen: React.FC<GameScreenProps> = ({
   const [answered, setAnswered] = useState(false);
   const [answerStartTime, setAnswerStartTime] = useState(Date.now());
   const [showCombo, setShowCombo] = useState(false);
-  const [lastScore, setLastScore] = useState(0);
   const [aiAnswering, setAiAnswering] = useState(false);
+  const lastScore = 0;
 
   const currentQuestion = questions[currentQuestionIndex];
 
